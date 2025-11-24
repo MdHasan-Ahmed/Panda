@@ -1,0 +1,471 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* "Inter", sans-serif; */
+}
+
+body{
+  background-color: #FFFFFF;
+}
+
+/* common code start */
+
+#btn{
+  padding: 10px 50px;
+  border: none;
+  background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+}
+
+#blackbtn{
+  padding: 13px 35px;
+  border: none;
+  background-color: #000000 ;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+
+}
+
+.categoribtn{
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #FF9C35;
+  border: none;
+  border-radius: 10px ;
+  color: white;
+}
+
+button{
+  cursor: pointer;
+}
+
+#emailbtn{
+  transition: .3s ease;
+}
+#emailbtn:hover{
+  transform: scale(1.1);
+}
+input:focus{
+  border: none;
+  outline: none;
+  box-shadow: 0px 5px 10px #00000030;
+}
+
+
+/* common code end */
+
+
+#head{
+  max-width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#hero{
+  max-width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background-color: #FEEAE9;
+  padding: 30px;
+  border-radius:20px ;
+}
+
+#hero_img{
+  text-align: right;
+  width: 500px;
+}
+
+#hero_content h2{
+  margin-bottom: 10px;
+  font-size: 43px;
+  color: #1F1F1F;
+}
+#hero_content p{
+  margin-bottom: 30px;
+  font-family:"Inter", sans-serif;
+  font-size: 16px;
+}
+#hero_content .hero_price {
+
+  margin-bottom: 20px;
+  font-size: 41px;
+  font-weight: 600;
+  color: #FF136F;
+}
+
+.categoribtn img{
+  width: 60px;
+}
+
+.categoribtn p{
+  font-size: 30px;
+}
+
+#product h3{
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+#product{
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.categoriesbtnbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.bagbtn{
+  background-color: #FF136F;
+}
+
+.shoebtn{
+  background-color: #3F07F8;
+}
+
+.shoecontainer{
+  width: 75%;
+  margin-bottom: 100px;
+
+}
+
+.shoecard{
+  width: 360px;
+  height: 100%;
+  border: 1px solid #929292;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px #00000030;
+
+  
+}
+
+.shoecard img{
+  margin-bottom: 10px;
+}
+
+.shoecard h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1F1F1F;
+  text-emphasis: left;
+}
+
+.shoecard p{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #4E4E4E;
+
+}
+
+.shoecard #shoeprice{
+  font-size: 25px;
+}
+
+.shoecard .shoeprice{
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.shoecontainer h3{
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+
+}
+
+.shoecontainer{
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+#shoecardbox{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  
+}
+
+#email{
+  text-align: center;
+  background-color: #FFF2F1;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 130px 0px;
+  height: 100%;
+  
+}
+
+
+#email h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #1F1F1F;
+}
+
+#email p{
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 15px;
+}
+
+#email button{
+  border: none;
+  padding: 20px 40px;
+  border-radius: 0px 5px 5px 0px;
+  background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+  color: white;
+  font-size: 16px;
+  box-shadow: 0px 5px 10px #00000030;
+}
+
+#email input{
+  border: none;
+  width: 60%;
+  padding: 21.7px 20px;
+  box-shadow: 0px 5px 10px #00000030;
+  
+}
+
+#email ::placeholder{
+  font-size: 16px;
+  color: #CCCCCC;
+  
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  transition: .3s ease;
+}
+
+/* hover effect */
+
+img:hover{
+  transform: scale(1.1);
+}
+
+#btn{
+  transition: .3s ease;
+}
+
+#btn:hover {
+  transform: scale(1.1);
+  color: black;
+  background-image:linear-gradient(#fff6ff);
+  border: 1px solid #FF136F;
+}
+
+ #blackbtn{
+  transition: .3s ease;
+}
+
+  #blackbtn:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #1F1F1F;
+    border: 1px solid #1F1F1F;
+
+  }
+
+  .categoribtn{
+    transition: .3s ease;
+  }
+
+  .categoribtn:hover{
+    transform: scale(1.1);
+  }
+
+  .shoecard{
+    transition: .3s ease;
+  }
+
+  .shoecard:hover{
+    transform: translateY(-10px);
+  }
+
+/* Responsive */
+
+
+/* laptop device 1025 - 1200px */
+
+
+@media screen and (max-width:1200px){
+  #hero_content h2{
+    font-size: 30px;
+  }
+
+.shoecard img{
+  width: 100%;
+}}
+
+/* tablet device 769 - 1024px */
+
+@media screen and (max-width:1024px) {
+  
+  #hero{
+  flex-direction: column;
+  text-align: center;
+}
+
+
+#hero_content h2{
+  font-size: 40px;
+  text-align: center;
+}
+
+#hero_img{
+  text-align: center;
+  width: 100%;
+}
+
+#hero_content button{
+  margin-bottom: 30px;
+}
+
+.categoriesbtnbox{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .categoriesbtnbox button {
+    width: 47%;
+    
+  }
+
+  #shoecardbox{
+    flex-wrap: wrap;
+  }
+
+.shoecard{
+  width: 46%;
+}
+
+.shoecard h4{
+  font-size: 32px;
+}
+
+.shoecard p {
+  font-size: 20px;
+}
+.shoecard #shoeprice {
+  font-size: 40px;
+}
+
+#blackbtn{
+  padding: 16px 54px;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+
+}
+
+/* andorid device landscape 569 - 768px */
+
+@media screen and (max-width: 768px) {
+
+  #hero_content h2{
+  font-size: 36px;
+  text-align: center;
+}
+
+#hero_content button{
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.categoriesbtnbox button {
+    width: 100%;
+  }
+
+  #blackbtn{
+  padding: 16px 20px;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+}
+
+/* andorid device Potrait 290 - 568px */
+
+@media screen and (max-width:568px) {
+   #hero_content h2{
+    font-size: 30px;
+
+}
+
+#hero_content button{
+  margin-bottom: 30px;
+  width: 50%;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+#hero_content .hero_price{
+  font-size: 36px;
+}
+
+#hero img{
+  width: 100%;
+}
+
+#head .logo{
+  width: 40%;
+}
+
+#head .menu{
+  width: 70%;
+}
+
+#head{
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#blackbtn{
+  padding: 18px 30px;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+ #shoecardbox{
+    flex-direction: column;
+  }
+
+  .shoecard{
+    width: 100%;
+  }
+}
+
