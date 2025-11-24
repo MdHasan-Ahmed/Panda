@@ -372,7 +372,7 @@ img:hover{
 }
 
 .shoecard p {
-  font-size: 20px;
+  font-size: 16px;
 }
 .shoecard #shoeprice {
   font-size: 40px;
@@ -468,4 +468,5 @@ img:hover{
     width: 100%;
   }
 }
+
 
